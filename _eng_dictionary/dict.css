@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorchid;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: rgba(0,0,0,.4);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.8);
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.input{
+    height: 30px;
+    width: 300px;
+    background-color: rgba(0,0,0,.8);
+    border-color: rgba(0,0,0,.9);
+    color: white;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+
+.mean{
+    display: none;
+}
